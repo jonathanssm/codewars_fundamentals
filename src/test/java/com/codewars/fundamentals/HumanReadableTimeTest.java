@@ -1,9 +1,11 @@
 package com.codewars.fundamentals;
 
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.Assert.assertEquals;
 
+@SpringBootTest
 public class HumanReadableTimeTest {
     @Test
     public void HumanReadableTimeTest() {
