@@ -1,7 +1,9 @@
 package com.codewars.fundamentals;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Component;
 
+@Component
 public class HumanReadableTime {
     public static String makeReadable(int seconds) {
         if (seconds <= 359999) {
@@ -22,4 +24,5 @@ public class HumanReadableTime {
     private static String putLeftPad(int number) {
         return StringUtils.leftPad(String.valueOf(number), 2, "0");
     }
+
 }

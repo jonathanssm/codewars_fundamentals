@@ -1,7 +1,10 @@
 package com.codewars.fundamentals;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
+@Component
 public class PlayingWithDigits {
 
     /*

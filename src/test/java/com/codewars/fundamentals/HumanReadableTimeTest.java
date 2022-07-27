@@ -15,4 +15,5 @@ public class HumanReadableTimeTest {
         assertEquals("makeReadable(86399)", "23:59:59", HumanReadableTime.makeReadable(86399));
         assertEquals("makeReadable(359999)", "99:59:59", HumanReadableTime.makeReadable(359999));
     }
+
 }
